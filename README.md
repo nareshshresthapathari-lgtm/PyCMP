@@ -4,40 +4,59 @@ Python Framework for Mining Closed, Maximal and Periodic Patterns
 
 ## Overview
 
-PyCMP is a research-oriented Python framework for pattern mining, knowledge discovery, and intelligent data analytics.
-
-This repository contains implementations of several data mining algorithms developed and studied as part of ongoing research in Data Science.
+PyCMP is an open-source Python framework developed for pattern mining research. The framework provides implementations of frequent pattern mining, association rule mining, utility mining, prediction algorithms and related data mining methods.
 
 ## Implemented Algorithms
 
 ### Frequent Pattern Mining
 - Apriori Top-K
 - FP-Growth Top-K
-
-### High Utility Mining
-- MEMU
-- FHSAR
+- DIC
 
 ### Association Rule Mining
 - IGB
 - Indirect Rules
+- TopKRules
+- TopETARM
+- TopFTARM
 
-## Research Interests
+### Utility Mining
+- FHSAR
+- HUIM-ABC
+- EHAUPM
+- HAUI-Miner
+- HAUIM-GMU
+- HAUIM-MMAU
+- MEMU
+- THUI
+- TKU
+- TKO
+- TKU-CE
 
-- Data Mining
-- Pattern Mining
-- Knowledge Discovery
-- Machine Learning
-- Explainable AI
+### Prediction and Other Methods
+- DG Predictor
+- LZ78
+- LinearTable
+- TM
+- TalkyG
+- SAM
+
+## Research Motivation
+
+PyCMP aims to provide a reproducible environment for implementing, validating and comparing pattern mining algorithms.
 
 ## Author
 
-Naresh Pradhan Shrestha
+Pradhan Shrestha Naresh
 
-M.Sc. Data Science  
-Kyoto College of Graduate Studies for Informatics (KCGI)  
-Kyoto, Japan
+M.Sc. Data Science
 
-## Repository
+Kyoto College of Graduate Studies for Informatics (KCGI), Japan
+
+## Publication
+
+Pypatternminer: An Open-Source Python Library for Pattern Mining
+
+Accepted at ICIST 2026
 
 https://github.com/nareshshresthapathari-lgtm/PyCMP
